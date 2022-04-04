@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="52ec5d4c-65b7-4693-baaa-781806b4ffa7" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="52ec5d4c-65b7-4693-baaa-781806b4ffa7fileName">https%3A%2F%2F133fbe9e-d16c-49bd-aeec-ff3e58426543%3AcC7bnHw_Ic7MoGOAD7BIyo8k0%40git.takehome.io-Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="datasource" name="Data Source" id="0cfe8a64-6734-4427-aac3-20bb6af10487">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:dataSource type="Data Generator">
+        <con:configuration>
+          <generatedDataCount>10</generatedDataCount>
+          <generatorsTotalNumber>1</generatorsTotalNumber>
+          <lastSelectedProperty>-1</lastSelectedProperty>
+          <GeneratorType0>CUSTOM</GeneratorType0>
+          <PropertyName0>Form editor is not applicable for this request</PropertyName0>
+          <repetitionCountFormdb56aaf0eeed45c39d574215cff6e17deditordb56aaf0eeed45c39d574215cff6e17disdb56aaf0eeed45c39d574215cff6e17dnotdb56aaf0eeed45c39d574215cff6e17dapplicabledb56aaf0eeed45c39d574215cff6e17dfordb56aaf0eeed45c39d574215cff6e17dthisdb56aaf0eeed45c39d574215cff6e17drequest>0</repetitionCountFormdb56aaf0eeed45c39d574215cff6e17deditordb56aaf0eeed45c39d574215cff6e17disdb56aaf0eeed45c39d574215cff6e17dnotdb56aaf0eeed45c39d574215cff6e17dapplicabledb56aaf0eeed45c39d574215cff6e17dfordb56aaf0eeed45c39d574215cff6e17dthisdb56aaf0eeed45c39d574215cff6e17drequest>
+          <repeatValuesFormdb56aaf0eeed45c39d574215cff6e17deditordb56aaf0eeed45c39d574215cff6e17disdb56aaf0eeed45c39d574215cff6e17dnotdb56aaf0eeed45c39d574215cff6e17dapplicabledb56aaf0eeed45c39d574215cff6e17dfordb56aaf0eeed45c39d574215cff6e17dthisdb56aaf0eeed45c39d574215cff6e17drequest>false</repeatValuesFormdb56aaf0eeed45c39d574215cff6e17deditordb56aaf0eeed45c39d574215cff6e17disdb56aaf0eeed45c39d574215cff6e17dnotdb56aaf0eeed45c39d574215cff6e17dapplicabledb56aaf0eeed45c39d574215cff6e17dfordb56aaf0eeed45c39d574215cff6e17dthisdb56aaf0eeed45c39d574215cff6e17drequest>
+          <CustomStringDataGeneratorFormatFormdb56aaf0eeed45c39d574215cff6e17deditordb56aaf0eeed45c39d574215cff6e17disdb56aaf0eeed45c39d574215cff6e17dnotdb56aaf0eeed45c39d574215cff6e17dapplicabledb56aaf0eeed45c39d574215cff6e17dfordb56aaf0eeed45c39d574215cff6e17dthisdb56aaf0eeed45c39d574215cff6e17drequest>%STR(5,10,True,True,True,True)</CustomStringDataGeneratorFormatFormdb56aaf0eeed45c39d574215cff6e17deditordb56aaf0eeed45c39d574215cff6e17disdb56aaf0eeed45c39d574215cff6e17dnotdb56aaf0eeed45c39d574215cff6e17dapplicabledb56aaf0eeed45c39d574215cff6e17dfordb56aaf0eeed45c39d574215cff6e17dthisdb56aaf0eeed45c39d574215cff6e17drequest>
+          <escapeSpaceSequence>db56aaf0eeed45c39d574215cff6e17d</escapeSpaceSequence>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>false</con:shared>
+      <con:restartShared>false</con:restartShared>
+      <con:property>Form editor is not applicable for this request</con:property>
+      <con:restartOnRun>true</con:restartOnRun>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Request 1" id="5bae43ce-a83c-4774-8f88-73160d5ceff9">
+    <con:settings/>
+    <con:config service="https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io" resourcePath="/133fbe9e-d16c-49bd-aeec-ff3e58426543" methodName="133fbe9e-d16c-49bd-aeec-ff3e58426543" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="7bc840bd-c280-48a1-9313-efb23d6bc4ce" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://git.takehome.io/133fbe9e-d16c-49bd-aeec-ff3e58426543</con:originalUri>
+        <con:assertion type="Valid HTTP Status Codes" id="1682ea47-85e4-426e-8801-37fac686265c" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="8d1487d7-473e-4e7a-89d4-272376e35383" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasourceloop" name="Data Source Loop" id="480e8b43-bfd4-4852-b4a6-6fff6e441ddf">
+    <con:settings/>
+    <con:config>
+      <dataSourceStep>Data Source</dataSourceStep>
+      <targetStep>Request 1</targetStep>
+      <discardResults>true</discardResults>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

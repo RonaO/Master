@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="6b0c5e31-9c21-4398-a8fd-3a03ff44fe24" name="https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io Test Suite" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="6b0c5e31-9c21-4398-a8fd-3a03ff44fe24fileName">https%3A%2F%2F133fbe9e-d16c-49bd-aeec-ff3e58426543%3AcC7bnHw_Ic7MoGOAD7BIyo8k0%40git.takehome.io-Test-Suite</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="58e5b56b-9fad-4022-8b86-0fa0808c6c38" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="58e5b56b-9fad-4022-8b86-0fa0808c6c38fileName">https%3A%2F%2F133fbe9e-d16c-49bd-aeec-ff3e58426543%3AcC7bnHw_Ic7MoGOAD7BIyo8k0%40git.takehome.io</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io</con:endpoint>
+  </con:endpoints>
+</con:interface>

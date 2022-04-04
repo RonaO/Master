@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="133fbe9e-d16c-49bd-aeec-ff3e58426543" path="/133fbe9e-d16c-49bd-aeec-ff3e58426543" id="ae615631-faa2-4597-b28a-bfcf6bf80d28" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ae615631-faa2-4597-b28a-bfcf6bf80d28fileName">133fbe9e-d16c-49bd-aeec-ff3e58426543</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="133fbe9e-d16c-49bd-aeec-ff3e58426543" id="8565eea4-dcb1-41c1-8977-ae3184910b5d" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="7bc840bd-c280-48a1-9313-efb23d6bc4ce" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
