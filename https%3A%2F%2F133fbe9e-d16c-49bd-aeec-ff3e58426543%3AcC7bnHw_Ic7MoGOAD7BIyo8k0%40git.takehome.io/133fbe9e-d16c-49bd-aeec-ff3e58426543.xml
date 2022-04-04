@@ -14,12 +14,17 @@
       <con:element>html</con:element>
     </con:representation>
     <con:request name="Request 1" id="7bc840bd-c280-48a1-9313-efb23d6bc4ce" mediaType="application/json">
-      <con:settings/>
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
       <con:endpoint>https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://git.takehome.io/133fbe9e-d16c-49bd-aeec-ff3e58426543</con:originalUri>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
         <con:authType>No Authorization</con:authType>
       </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters/>
     </con:request>
   </con:method>
