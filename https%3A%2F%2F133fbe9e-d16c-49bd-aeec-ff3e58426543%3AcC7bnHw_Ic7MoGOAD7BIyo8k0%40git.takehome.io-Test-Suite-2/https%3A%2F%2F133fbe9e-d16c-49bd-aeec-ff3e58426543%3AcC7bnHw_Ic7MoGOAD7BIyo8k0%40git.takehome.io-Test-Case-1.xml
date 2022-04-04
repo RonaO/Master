@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="c00f1688-9cd4-4bed-9cf2-6c52bcad4a12" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c00f1688-9cd4-4bed-9cf2-6c52bcad4a12fileName">https%3A%2F%2F133fbe9e-d16c-49bd-aeec-ff3e58426543%3AcC7bnHw_Ic7MoGOAD7BIyo8k0%40git.takehome.io-Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Request 1" id="34fd5efb-58f0-45e3-b57c-34991d946cdb">
+    <con:settings/>
+    <con:config service="https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io" resourcePath="/133fbe9e-d16c-49bd-aeec-ff3e58426543" methodName="133fbe9e-d16c-49bd-aeec-ff3e58426543 2" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="97cce117-0b68-4668-931d-b16140e304a1" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://git.takehome.io/133fbe9e-d16c-49bd-aeec-ff3e58426543</con:originalUri>
+        <con:assertion type="Valid HTTP Status Codes" id="e73d5dc8-53e2-452a-b9ab-0c0d98249b40" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="d84a65c3-e9c8-4def-8051-1c5048046172" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

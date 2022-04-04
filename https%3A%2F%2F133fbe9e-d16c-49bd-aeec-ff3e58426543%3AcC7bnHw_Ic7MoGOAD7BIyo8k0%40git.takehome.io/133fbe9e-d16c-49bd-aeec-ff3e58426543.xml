@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="133fbe9e-d16c-49bd-aeec-ff3e58426543" path="/133fbe9e-d16c-49bd-aeec-ff3e58426543" id="ae615631-faa2-4597-b28a-bfcf6bf80d28" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="133fbe9e-d16c-49bd-aeec-ff3e58426543" path="/133fbe9e-d16c-49bd-aeec-ff3e58426543" id="ae615631-faa2-4597-b28a-bfcf6bf80d28" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="ae615631-faa2-4597-b28a-bfcf6bf80d28fileName">133fbe9e-d16c-49bd-aeec-ff3e58426543</con:setting>
   </con:settings>
@@ -16,6 +16,33 @@
     <con:request name="Request 1" id="7bc840bd-c280-48a1-9313-efb23d6bc4ce" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+  <con:method name="133fbe9e-d16c-49bd-aeec-ff3e58426543 2" id="2c0c7326-7d23-47dd-b115-c2056621d2cf" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="97cce117-0b68-4668-931d-b16140e304a1" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://133fbe9e-d16c-49bd-aeec-ff3e58426543:cC7bnHw_Ic7MoGOAD7BIyo8k0@git.takehome.io</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://git.takehome.io/133fbe9e-d16c-49bd-aeec-ff3e58426543</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters/>
     </con:request>
   </con:method>
